@@ -1,0 +1,10 @@
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor\bin\Release\SIKCIPayloadProcessor.exe.config
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor\bin\Release\NLog.config
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor\bin\Release\SIKCIPayloadProcessor.exe
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor\bin\Release\SIKCIPayloadProcessor.pdb
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor\bin\Release\nunit.framework.dll
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor\bin\Release\Rhino.Mocks.dll
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor\bin\Release\nunit.framework.xml
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor\obj\Release\SIKCIPayloadProcessor.csprojResolveAssemblyReference.cache
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor\obj\Release\SIKCIPayloadProcessor.exe
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor\obj\Release\SIKCIPayloadProcessor.pdb

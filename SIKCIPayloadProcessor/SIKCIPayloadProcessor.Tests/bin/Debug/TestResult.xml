@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Debug\SIKCIPayloadProcessor.Tests.dll" total="18" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-05" time="14:35:56">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Debug" machine-name="XLN414" user="Thanh Doan" user-domain="XLNTELECOM" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Debug\SIKCIPayloadProcessor.Tests.dll" executed="True" result="Success" success="True" time="0.852" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="SIKCIPayloadProcessor" executed="True" result="Success" success="True" time="0.782" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.772" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="GetOrderMessagePayloadArchiver_Tests" executed="True" result="Success" success="True" time="0.550" asserts="0">
+                <results>
+                  <test-suite type="ParameterizedTest" name="Check_Is_Processable_On_Collaboration_Name" executed="True" result="Success" success="True" time="0.520" asserts="0">
+                    <results>
+                      <test-case name="SIKCIPayloadProcessor.Tests.GetOrderMessagePayloadArchiver_Tests.Check_Is_Processable_On_Collaboration_Name(&quot;BCREQUESTTROUBLEREPORTINVENTORY&quot;,False)" executed="True" result="Success" success="True" time="0.450" asserts="2" />
+                      <test-case name="SIKCIPayloadProcessor.Tests.GetOrderMessagePayloadArchiver_Tests.Check_Is_Processable_On_Collaboration_Name(&quot;BCREQUESTORDERCHANGESMESSAGES&quot;,True)" executed="True" result="Success" success="True" time="0.010" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Should_Return_Correct_Collaboration_Name" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                    <results>
+                      <test-case name="SIKCIPayloadProcessor.Tests.GetOrderMessagePayloadArchiver_Tests.Should_Return_Correct_Collaboration_Name(&quot;SIIN_635497313837043797_BCREQUESTORDERCHANGESMESSAGES__20141024070949.xml&quot;,&quot;BCREQUESTORDERCHANGESMESSAGES&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="SIKCIPayloadProcessor.Tests.GetOrderMessagePayloadArchiver_Tests.Should_Return_Correct_Collaboration_Name(&quot;SIIN_635497313837043797_BCREQUESTTROUBLEREPORTINVENTORY__20141024070949.xml&quot;,&quot;BCREQUESTTROUBLEREPORTINVENTORY&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="LoadFileService_Tests" executed="True" result="Success" success="True" time="0.222" asserts="0">
+                <results>
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Load_File_Service_Should_Run_As_Expected" executed="True" result="Success" success="True" time="0.182" asserts="0" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Correct_Destination_Paths_Property" executed="True" result="Success" success="True" time="0.010" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Correct_InBound_Payload_Property" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Correct_OutBound_Payload_Property" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Correct_Source_InDirectory_Property" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Correct_Source_OutDirectory_Property" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Correct_Source_Paths_Property" executed="True" result="Success" success="True" time="0.010" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Create_DirectoryInfo_Method" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Create_Path_Method" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Get_Destination_Folder_Method" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Get_Inbound_Payload_Files_Method" executed="True" result="Success" success="True" time="0.010" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Get_Source_Folder_Method" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Load_Files_Method" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="SIKCIPayloadProcessor.Tests.LoadFileService_Tests.Should_Have_Perform_Method" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

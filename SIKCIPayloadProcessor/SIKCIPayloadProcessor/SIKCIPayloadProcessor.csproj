@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83ED512F-EEE8-4EFC-BE12-F4D6C7BD38B8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SIKCIPayloadProcessor</RootNamespace>
+    <AssemblyName>SIKCIPayloadProcessor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NLog, Version=3.1.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NLog.3.1.0.0\lib\net40\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\RhinoMocks.3.6.1\lib\net\Rhino.Mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XLN.Business, Version=2.0.1.1, Culture=neutral, PublicKeyToken=8d483824b1b4e30c, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Program Files\XLNTelecom\Common Components\XLN.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Xln.Business.Enumeration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8d483824b1b4e30c, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Program Files\XLNTelecom\Common Components\Xln.Business.Enumeration.dll</HintPath>
+    </Reference>
+    <Reference Include="XLN.BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8d483824b1b4e30c, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Program Files\XLNTelecom\Common Components\XLN.BusinessObject.dll</HintPath>
+    </Reference>
+    <Reference Include="XLN.DAL.Default, Version=1.0.0.0, Culture=neutral, PublicKeyToken=59c4a6f80964214f, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Program Files\XLNTelecom\Common Components\XLN.DAL.Default.dll</HintPath>
+    </Reference>
+    <Reference Include="XLNCRMCommonLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8d483824b1b4e30c, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Program Files\XLNTelecom\Common Components\XLNCRMCommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="XlnDependencyContainer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e94b968e0f41fca8, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Program Files\XLNTelecom\Common Components\XlnDependencyContainer.dll</HintPath>
+    </Reference>
+    <Reference Include="XLNLogger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8d483824b1b4e30c, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Program Files\XLNTelecom\Common Components\XLNLogger.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\AppSingleController.cs" />
+    <Compile Include="Classes\ConfigurationService.cs" />
+    <Compile Include="Classes\FileService.cs" />
+    <Compile Include="Classes\GetFaultChangesProcessor.cs" />
+    <Compile Include="Classes\GetOrderMessageProcessor.cs" />
+    <Compile Include="Classes\GetUnsolicitedCeaseProcessor.cs" />
+    <Compile Include="Classes\LoadFileService.cs" />
+    <Compile Include="DAL\SIKCIPayloadDataAccess.cs" />
+    <Compile Include="Enums\Destination.cs" />
+    <Compile Include="Enums\PayloadDirection.cs" />
+    <Compile Include="Enums\PayloadDirectoryPath.cs" />
+    <Compile Include="Enums\Platform.cs" />
+    <Compile Include="Enums\Source.cs" />
+    <Compile Include="Interfaces\IAppSingleController.cs" />
+    <Compile Include="Interfaces\IFileServices.cs" />
+    <Compile Include="Interfaces\IConfiguratonServices.cs" />
+    <Compile Include="Interfaces\ISiKciPayloadDataAccess.cs" />
+    <Compile Include="Interfaces\ISIPayloadProcessor.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\SIAbstractProcessor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="SIKCIPayloadProcessor.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SIAbstractProcessor.SIAbstractProcessor" Collapsed="true">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAIAAAAAAAAAAADEAIAACAAAgIAAEYgABAI=</HashCode>
+      <FileName>Classes\SIAbstractProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.69" />
+  </Class>
+  <Class Name="SIAbstractProcessor.Classes.GetFaultChangesProcessor">
+    <Position X="0.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAACAAAAACAAAAAABAAIEAAAAAgAAAAAAgBAA=</HashCode>
+      <FileName>Classes\GetFaultChangesProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIAbstractProcessor.Classes.GetOrderMessageProcessor">
+    <Position X="3.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAACAAAAAABAAIAAAAAAgQAAAAAABAA=</HashCode>
+      <FileName>Classes\GetOrderMessageProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SIAbstractProcessor.Interfaces.IFileAccess" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAQAAAgAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFileAccess.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SIAbstractProcessor.Interfaces.IGetConfig" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGetConfig.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SIAbstractProcessor.Interfaces.IFileProcessing" Collapsed="true">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAgAAAEQAAAAA=</HashCode>
+      <FileName>Interfaces\IFileProcessing.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SIAbstractProcessor.Interfaces.ISIPayloadProcessor" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interfaces\ISIPayloadArchiver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

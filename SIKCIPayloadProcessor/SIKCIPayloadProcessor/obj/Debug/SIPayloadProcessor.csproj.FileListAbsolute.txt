@@ -1,0 +1,10 @@
+C:\xln-vault\XLN - Queues\SIPayloadProcessor\SIPayloadProcessor\bin\Debug\SIPayloadProcessor.exe.config
+C:\xln-vault\XLN - Queues\SIPayloadProcessor\SIPayloadProcessor\bin\Debug\NLog.config
+C:\xln-vault\XLN - Queues\SIPayloadProcessor\SIPayloadProcessor\bin\Debug\SIPayloadProcessor.exe
+C:\xln-vault\XLN - Queues\SIPayloadProcessor\SIPayloadProcessor\bin\Debug\SIPayloadProcessor.pdb
+C:\xln-vault\XLN - Queues\SIPayloadProcessor\SIPayloadProcessor\bin\Debug\Rhino.Mocks.dll
+C:\xln-vault\XLN - Queues\SIPayloadProcessor\SIPayloadProcessor\obj\Debug\SIPayloadProcessor.csprojResolveAssemblyReference.cache
+C:\xln-vault\XLN - Queues\SIPayloadProcessor\SIPayloadProcessor\obj\Debug\SIPayloadProcessor.exe
+C:\xln-vault\XLN - Queues\SIPayloadProcessor\SIPayloadProcessor\obj\Debug\SIPayloadProcessor.pdb
+C:\xln-vault\XLN - Queues\SIPayloadProcessor\SIPayloadProcessor\bin\Debug\nunit.framework.dll
+C:\xln-vault\XLN - Queues\SIPayloadProcessor\SIPayloadProcessor\bin\Debug\nunit.framework.xml

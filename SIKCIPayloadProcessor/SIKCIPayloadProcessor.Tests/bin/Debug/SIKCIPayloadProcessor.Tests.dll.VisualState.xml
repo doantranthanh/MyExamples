@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1022]C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Debug\SIKCIPayloadProcessor.Tests.dll</TopNode>
+  <SelectedNode>[0-1022]C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Debug\SIKCIPayloadProcessor.Tests.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1022]C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Debug\SIKCIPayloadProcessor.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1023]SIKCIPayloadProcessor" Expanded="true" />
+    <Node UniqueName="[0-1024]SIKCIPayloadProcessor.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]SIKCIPayloadProcessor.Tests.GetOrderMessagePayloadArchiver_Tests" Expanded="true" />
+    <Node UniqueName="[0-1004]SIKCIPayloadProcessor.Tests.GetOrderMessagePayloadArchiver_Tests.Check_Is_Processable_On_Collaboration_Name" Expanded="true" />
+    <Node UniqueName="[0-1001]SIKCIPayloadProcessor.Tests.GetOrderMessagePayloadArchiver_Tests.Should_Return_Correct_Collaboration_Name" Expanded="true" />
+    <Node UniqueName="[0-1007]SIKCIPayloadProcessor.Tests.LoadFileService_Tests" Expanded="true" />
+  </Nodes>
+</VisualState>

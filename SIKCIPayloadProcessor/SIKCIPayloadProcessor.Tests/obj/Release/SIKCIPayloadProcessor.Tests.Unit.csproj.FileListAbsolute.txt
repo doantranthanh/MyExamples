@@ -1,0 +1,10 @@
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Release\NLog.config
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Release\SIKCIPayloadProcessor.Tests.dll
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Release\SIKCIPayloadProcessor.Tests.pdb
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Release\nunit.framework.dll
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Release\SIKCIPayloadProcessor.exe
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Release\SIKCIPayloadProcessor.pdb
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\bin\Release\nunit.framework.xml
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\obj\Release\SIKCIPayloadProcessor.Tests.Unit.csprojResolveAssemblyReference.cache
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\obj\Release\SIKCIPayloadProcessor.Tests.dll
+C:\xln-vault\XLN - Queues\SIKCIPayloadProcessor\SIKCIPayloadProcessor.Tests\obj\Release\SIKCIPayloadProcessor.Tests.pdb
